@@ -1,0 +1,39 @@
+<!--
+The Brain train app is a simple app that randomly generates a question with two numbers of which 3
+values are false with the fourth adding up to the value in the question.
+
+Name: Brain Adding App
+App Version: v1
+Date: Apr 2020
+Created: H2M Des.
+
+Software Details:
+   compileSdkVersion 28
+   minSdkVersion 15
+   API implementation androidx.appcompat
+-->
+
+<resources>
+    <string name="app_name">BrainTrain</string>
+
+    <string name="startbutton">START</string>
+    <string name="gameend">The game has finished!</string>
+    <string name="countdownview">0 / 1</string>
+    <string name="questionview">3 + 2</string> <!-- temp value for the question view -->
+    <string name="tempscoreval">0</string>
+
+    <string name="button1temp">6</string>
+    <string name="button2temp">12</string>
+    <string name="button3temp">7</string>
+    <string name="button4temp">3</string>
+
+    <string name="countdown">Count Down</string>
+    <string name="score">Score</string>
+    <string name="reset">Reset</string>
+
+    <string name="correctansmessage">CORRECT</string>
+    <string name="correcttoast">CORRECT KEEP GOING!</string>
+
+    <string name="incorrectansmessage">INCORRECT</string>
+    <string name="incorrecttoast">SORRY WRONG ANSWER</string>
+</resources>
